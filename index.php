@@ -67,6 +67,7 @@
                 <div class="kartu-partner">
                     <a href="<?php echo buat_link_berita($r1['id'])?>">
                     <img src="<?php echo url_dasar()."/gambar/".berita_foto($r1['id'])?>"/>
+                    <p><?php echo $r1['nama'] ?></p>
                     </a>
                 </div>
             <?php
